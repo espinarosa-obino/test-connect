@@ -9,7 +9,31 @@
       "UnauthRoleName": "amplify-vueproject-dev-055b3-unauthRole",
       "StackName": "amplify-vueproject-dev-055b3",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:992382758607:stack/amplify-vueproject-dev-055b3/5635a730-8c6f-11ef-aa41-0aed1fa5504f",
-      "AmplifyAppId": "d31cyg6es95dcu"
+      "AmplifyAppId": "d31cyg6es95dcu",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-vueproject-dev-055b3-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d31cyg6es95dcu",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "vueprojecte43d103de43d103d": {}
+      },
+      "function": {
+        "regularUsersLambda": {
+          "deploymentBucketName": "amplify-vueproject-dev-055b3-deployment",
+          "s3Key": "amplify-builds/regularUsersLambda-4c693731362f6665582f-build.zip"
+        }
+      },
+      "storage": {
+        "regularUsersDDB": {}
+      },
+      "api": {
+        "regularUsersApi": {}
+      }
     }
   }
 }
